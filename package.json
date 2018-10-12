@@ -7,7 +7,6 @@
   "main": "dist/decode-policystore-client.js",
   "author": { "name": "Sam Mulube" },
   "license": "AGPL-3.0-or-later",
-  "private": true,
   "scripts": {
     "dev": "webpack --config webpack.dev.js",
     "prod": "webpack --config webpack.prod.js"
