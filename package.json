@@ -2,14 +2,19 @@
   "name": "decode-policystore-client-js",
   "version": "0.0.1",
   "description": "Client library for the PolicyStore component of the DECODE IoT Pilot",
-  "main": "index.js",
+  "main": "dist/decode-policystore-client.js",
   "author": "Sam Mulube",
   "license": "GPL",
+  "scripts": {
+    "dist": "webpack"
+  },
   "devDependencies": {
-    "webpack": "^4.20.2"
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
   },
   "dependencies": {
     "google-protobuf": "^3.6.1",
-    "twirp": "0.0.5"
+    "twirp": "0.0.5",
+    "whatwg-fetch": "^3.0.0"
   }
 }
