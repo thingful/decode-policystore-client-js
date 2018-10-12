@@ -4,7 +4,8 @@
   "description": "Client library for the PolicyStore component of the DECODE IoT Pilot",
   "main": "dist/decode-policystore-client.js",
   "author": "Sam Mulube",
-  "license": "GPL",
+  "license": "AGPL",
+  "private": true,
   "scripts": {
     "dist": "webpack"
   },
