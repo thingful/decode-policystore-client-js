@@ -1,10 +1,12 @@
 {
-  "name": "decode-policystore-client-js",
+  "name": "decode-policystore-client",
   "version": "0.0.1",
   "description": "Client library for the PolicyStore component of the DECODE IoT Pilot",
+  "homepage": "https://github.com/thingful/decode-policystore-client-js#readme",
+  "bugs": { "url": "https://github.com/thingful/decode-policystore-client-js/issues" },
   "main": "dist/decode-policystore-client.js",
-  "author": "Sam Mulube",
-  "license": "AGPL",
+  "author": { "name": "Sam Mulube" },
+  "license": "AGPL-3.0-or-later",
   "private": true,
   "scripts": {
     "dev": "webpack --config webpack.dev.js",
