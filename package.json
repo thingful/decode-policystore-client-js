@@ -7,12 +7,14 @@
   "license": "AGPL",
   "private": true,
   "scripts": {
-    "dist": "webpack"
+    "dev": "webpack --config webpack.dev.js",
+    "prod": "webpack --config webpack.prod.js"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.19",
     "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "webpack-merge": "^4.1.4"
   },
   "dependencies": {
     "google-protobuf": "^3.6.1",
