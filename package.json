@@ -1,0 +1,8 @@
+{
+  "name": "decode-policystore-client-js",
+  "version": "0.0.1",
+  "description": "Client library for the PolicyStore component of the DECODE IoT Pilot",
+  "main": "index.js",
+  "author": "Sam Mulube",
+  "license": "GPL"
+}
