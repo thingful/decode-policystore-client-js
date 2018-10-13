@@ -1,6 +1,6 @@
 {
   "name": "decode-policystore-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Client library for the PolicyStore component of the DECODE IoT Pilot",
   "homepage": "https://github.com/thingful/decode-policystore-client-js#readme",
   "bugs": { "url": "https://github.com/thingful/decode-policystore-client-js/issues" },

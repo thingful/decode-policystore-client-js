@@ -9,6 +9,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'decode-policystore.bundle.js',
-    library: 'decodePolicyStore'
+    library: 'decodePolicyStore',
+    libraryTarget: 'umd'
   }
 };
