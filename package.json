@@ -1,6 +1,6 @@
 {
   "name": "decode-policystore-client",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Client library for the PolicyStore component of the DECODE IoT Pilot",
   "homepage": "https://github.com/thingful/decode-policystore-client-js#readme",
   "bugs": {
@@ -23,6 +23,6 @@
   },
   "dependencies": {
     "google-protobuf": "^3.6.1",
-    "twirp": "0.0.5"
+    "twirp": "thechriswalker/twirp-js"
   }
 }
